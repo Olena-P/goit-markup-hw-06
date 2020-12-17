@@ -85,12 +85,14 @@
                                 
                                     <div>
                                         <input type="checkbox" name="checkbox" value="check" id="agree"/>
-                                        <label class="form-label" for="agree">
-                                            Соглашаюсь с рассылкой и принимаю <link class="conditions"> Условия договора</link>
+                                        <label class="form-label check" for="agree">
+                                            
+                                            Соглашаюсь с рассылкой и принимаю <a class="conditions"> Условия договора</a>
                                         </label>
                                     </div>
                                     
                                     <button class="button-one form-button" type="submit">Отправить</button>
+                                </div>
                             </form>
 
                         </div>
@@ -465,6 +467,19 @@
                                 </a>
                             </li>  
                         </ul>
+                    </div>
+
+                    <div class="footer-box">
+                        <form class="footer-form">
+                            <p class="footer-form-paragraph">Подпишитесь на рассылку</p>
+                            <input type="email" name="email" id="email" class="e-mail" placeholder="E-mail">
+                            <button type="submit" class="footer-form-button">Подписаться
+                                <svg class="footer-form-icon" width="24px" height="24px">
+                                    <use href="./images/sprite.svg#icon-icon-send"></use>
+                                </svg>
+                            </button>
+                        </form>
+        
                     </div>
                 </address>
             </div>
