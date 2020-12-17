@@ -279,6 +279,15 @@ a {
 
 /* =========form======== */
 
+.modal-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
 .form{
     padding: 40px;
 }
@@ -292,14 +301,17 @@ a {
 
     margin: 0;
     font: inherit;
+    margin-bottom: 10px;
+
+    padding-left: 15px;
 }
 
 
 
-.form-input:focus + .form-label,
+/* .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label{
     transform: translateY(-50px);
-}
+} */
 
 /* .form-input:placeholder-shown{
     background-color: red;
@@ -311,19 +323,22 @@ a {
 .button-one.form-button{
     margin-left: auto;
     margin-right: auto;
-}
-
-
-
-.form-field {
-    display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
-  
-.form-label {
+
+
+
+.form-lable {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.16;
+    color: #757575;
     margin-left: 5px;
     cursor: pointer;
+}
+
+.conditions{
+    text-decoration-skip-ink: none;
 }
 
 /* ==========form end========= */
