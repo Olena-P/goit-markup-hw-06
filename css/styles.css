@@ -309,13 +309,9 @@ a {
 
     margin: 0;
     font: inherit;
-    margin-bottom: 10px;
 
-    padding-left: 15px;
-    margin-top: 4px;
+    padding-left: 42px;
 }
-
-
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label{
@@ -324,12 +320,9 @@ a {
 
 
 .button-one.form-button{
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+    display: block;
+    margin: auto;
 }
-
-
 
 .form-lable {
     font-weight: normal;
@@ -356,6 +349,34 @@ a {
     display: inline-block;
 }
 
+.form-label-checkbox{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.form-svg{
+    position: absolute;
+    left: 15px;
+    top: 33%;
+}
+
+.form-lable-svg{
+    position: relative;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.form-input:focus,
+.form-input:hover{
+    outline: none;
+    border-color: var(--accent-color);
+}
+.form-input:hover + .form-svg,
+.form-input:focus + .form-svg{
+    fill: var(--accent-color);
+}
 /* ==========form end========= */
 
 /* ==========modal end================ */
