@@ -316,6 +316,7 @@ a {
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label{
     transform: translateY(-50px);
+
 }
 
 
@@ -372,10 +373,13 @@ a {
 .form-input:hover{
     outline: none;
     border-color: var(--accent-color);
+    transition: var(--timing-function);
 }
+
 .form-input:hover + .form-svg,
 .form-input:focus + .form-svg{
     fill: var(--accent-color);
+    transition: var(--timing-function);
 }
 /* ==========form end========= */
 
