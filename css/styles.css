@@ -166,6 +166,10 @@ a {
     background-color: var(--accent-color);
 }
 
+.current{
+    color: var(--accent-color);
+}
+
 /*============  END HEADER ============*/
 
 /*============== Hero ==============*/
@@ -647,7 +651,7 @@ a {
     fill: #AFB1B8;
     background-color: #fff;
     color: var(--icon-color);
-
+    border-radius: 4px;
 }
 
 .customers-svg{
@@ -816,7 +820,7 @@ html {
 }
 
 .address-box{
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 /* ==========footer-form=========== */
@@ -900,11 +904,6 @@ font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.portfolio{
-    padding-bottom: 94px;
-    padding-top: 94px;
 }
 
 .portfolio-info{
